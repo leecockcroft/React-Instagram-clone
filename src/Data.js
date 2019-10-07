@@ -9,7 +9,7 @@
           },
           {
               url:'./images/img2.jpg',
-                description:"test1",
+                description:"LA",
                 likes:3,
                   index:1
 
@@ -17,7 +17,7 @@
           },
           {
               url:'./images/img3.jpg',
-                description:"test1",
+                description:"John",
                 likes:4,
                   index:2
 
@@ -25,19 +25,19 @@
           },
           {
               url:'./images/img2.jpg',
-              description:"test1"
+              description:"tesgggt1"
 
 
           },
           {
               url:'./images/img2.jpg',
-                description:"test1"
+                description:"gggg"
 
 
           },
           {
               url:'./images/img2.jpg',
-                description:"test1"
+                description:"rrrr"
 
 
           },

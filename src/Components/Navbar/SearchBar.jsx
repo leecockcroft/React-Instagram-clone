@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SearchBar=()=><input type='text' placeholder='search'/>
+const SearchBar=(props)=><input onChange={props.searchImage} type='text' placeholder='search'/>
 
 
 

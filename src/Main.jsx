@@ -16,6 +16,8 @@
                 this.state={
                   post:100,
                   gallery:[],
+                  search:"",
+                  filtered:[]
 
 
             }
@@ -43,24 +45,27 @@ gallery:this.state.gallery.map((item,index)=>{
          else {
            return item;
          }
-
-
-
-})
-
-})
+       })
+     })
 
 
 }
+searchImage=(e)=>{
+  const search = e.target.value;
+  const postsFound=Data.filter(post => post.description.includes(e.target.value))
+  this.setState({
+    gallery:postsFound
+  })
+}
 
-
-              render() {
+  render() {
 
 
 
                 return (
                   <div>
-                    <Nav/>
+
+                    <Nav searchImage={this.searchImage}/>
                     <Header post={this.state.gallery.length}/>
                     <Carousel/>
                     <Gallery gallery={this.state.gallery} increaseLikes={this.increaseLikes}/>

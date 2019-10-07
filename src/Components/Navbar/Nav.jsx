@@ -4,7 +4,7 @@ import Icon from './Icon'
 import InstaLogo from './InstaLogo'
 import SearchBar from './SearchBar'
 
-const Nav=()=>{
+const Nav=(props)=>{
 return (
 
 <nav>
@@ -18,7 +18,7 @@ return (
           </div>
 
       <div className='search'>
-          <SearchBar/>
+          <SearchBar searchImage={props.searchImage}/>
       </div>
 
       <div className='logos-flex'>
