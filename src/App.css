@@ -127,7 +127,7 @@ padding:20px
   .likes{
     position: absolute;
       top: 150px;
-  opacity:0;
+  opacity:0.1;
       color: #000;
       font-size: 25px;
       font-weight: 900;
