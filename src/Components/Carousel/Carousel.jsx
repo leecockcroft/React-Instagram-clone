@@ -33,7 +33,7 @@ this.setState({
         <div className="carousel">
 
         {Data.map(item => (
-          <div>
+          <div className="carousel-container">
           <img className="carousel-image" src={item.url}/>
           <p>{item.description}</p>
           </div>

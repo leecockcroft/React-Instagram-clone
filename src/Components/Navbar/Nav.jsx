@@ -14,7 +14,7 @@ return (
       <div className='logos'>
           <Icon icon={"fa-instagram"}/>
           <div className='divid'></div>
-            <InstaLogo logo={'Instgram'}/>
+            <InstaLogo logo={'Instagram'}/>
           </div>
 
       <div className='search'>

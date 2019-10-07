@@ -101,6 +101,16 @@ padding:20px
       display: flex;
       justify-content: space-around;
 }
+.carousel-container{
+margin: 30px 0;
+}
+
+.carousel-container p{
+text-align: center;
+
+
+}
+
 
 .main-gallery{
   margin:auto;
