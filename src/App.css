@@ -1,22 +1,145 @@
-.App {
-  text-align: center;
+body{
+  background:#80808008;
 }
 
-.App-logo {
-  height: 40vmin;
+.container{
+  width:1000px;
+  margin:auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
+
+height:70px;
+margin-bottom: 80px;
+display:flex;
+background:#fff;
+}
+
+.navbar{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+
+}
+.logos{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  width: 180px;
+}
+.logos-flex{
+  display: flex;
+  justify-content: space-between;
+
+  width: 120px;
 }
 
-.App-link {
-  color: #09d3ac;
+nav i {
+  font-size: 30px;
+
 }
+
+
+.header-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin: auto;
+  width: 700px;
+
+}
+.header-title{
+  display:flex;
+
+flex-direction: column;
+
+}
+
+.inline{
+display:inline
+
+
+}
+
+button{
+  height:20px;
+  margin-left:10px;
+}
+.divid{
+  background-color:#000;
+  height:28px;
+  width:1px;
+}
+
+.profileImg{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.post{
+  margin-top:30px;
+}
+
+
+.main{
+  background:gray
+}
+
+
+.carousel-image{
+height:80px;
+width:80px;
+border-radius:50%;
+padding:20px
+
+
+}
+
+.carousel{
+  margin: auto;
+      display: flex;
+      justify-content: space-around;
+}
+
+.main-gallery{
+  margin:auto;
+  display:flex;
+  flex-wrap:wrap;
+
+}
+
+  .gallery-images{
+  margin:auto;
+  height:300px;
+  width:100%;
+  margin-bottom:30px;
+
+  }
+  .gallery-images:hover{
+    opacity:0.2
+  }
+  .img-container:hover .likes{
+    opacity:1
+
+  }
+
+  .likes{
+    position: absolute;
+      top: 150px;
+  opacity:0;
+      color: #000;
+      font-size: 25px;
+      font-weight: 900;
+      right: 117px;
+      transition: .5s ease
+
+  }
+
+
+  .img-container{
+    width: 28%;
+    padding: 20px;
+    position:relative;
+
+  }
