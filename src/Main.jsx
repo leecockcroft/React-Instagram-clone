@@ -53,11 +53,12 @@ gallery:this.state.gallery.map((item,index)=>{
 searchImage=(e)=>{
   const search = e.target.value;
   const postsFound=Data.filter(post => post.description.includes(e.target.value))
+if(postsFound.length>0){
   this.setState({
     gallery:postsFound
   })
 }
-
+}
   render() {
 
 
